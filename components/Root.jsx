@@ -4,8 +4,6 @@ import Router from 'react-router'
 var RouteHandler = Router.RouteHandler
 import Header from './Header.jsx'
 
-import css from '../css/base.css'
-
 
 export default class Root extends React.Component {
   render() {
@@ -18,7 +16,6 @@ export default class Root extends React.Component {
         <html>
           <head>
             <title>{this.props.title}</title>
-            <style dangerouslySetInnerHTML={{ __html: css }} />
               <link rel="stylesheet" href="./style.css"/>
 
           </head>

@@ -43,15 +43,16 @@ The demo uses the a project source structure like this :
 ```
 /project
   /build
+  /scss
   /components
       Header.jsx
       Root.jx
   /pages
-      RootPage.js
       Home.jsx
       About.jsx
-      404Page.js
-    entry.js
+      Index.jsx
+  entry.js
+  data.js
   webpack.config.js
 ```
 and the static output should be like this :
@@ -60,10 +61,9 @@ and the static output should be like this :
   /build
     /about
       index.html
-    /projects
-      index.html
+    /home
+      home.html
     index.html
-    404.html
     bundle.js
     style.css
 ```
