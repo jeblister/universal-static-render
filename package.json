@@ -1,7 +1,7 @@
 {
   "name": "universal-static-render",
   "version": "1.0.0",
-  "description": "",
+  "description": "Using webpack to render a website statically, and react-router to switch between pages dynamically all the code use ES6.",
   "main": "index.js",
   "scripts": {
     "webpack": "webpack --progress --colors",
