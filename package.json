@@ -1,0 +1,25 @@
+{
+  "name": "universal-static-render",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack --progress --colors",
+    "prod": "webpack -p --progress --colors",
+    "dev": "webpack-dev-server --progress --colors",
+    "start": "npm run dev"
+  },
+  "author": "Mohamed JEBLI",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-loader": "^5.3.2",
+    "basscss": "^6.1.6",
+    "css-loader": "^0.14.4",
+    "node-libs-browser": "^0.5.2",
+    "react": "^0.13.3",
+    "react-router": "^0.13.3",
+    "static-site-generator-webpack-plugin": "1.1.2",
+    "webpack": "^1.9.10",
+    "webpack-dev-server": "^1.9.0"
+  }
+}
