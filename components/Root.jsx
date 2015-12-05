@@ -1,4 +1,4 @@
-
+// components/Root.jsx
 import React, {PropTypes} from 'react'
 import Router from 'react-router'
 var RouteHandler = Router.RouteHandler

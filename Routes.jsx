@@ -1,13 +1,15 @@
-
+// `Routes.jsx
 import React from 'react'
 import Router from 'react-router'
 var Route = Router.Route
 var DefaultRoute = Router.DefaultRoute
+//var NotFoundRoute = Router.NotFoundRoute
 
 import Root  from './components/Root.jsx'
 import Index from  './pages/Index.jsx'
 import About from  './pages/About.jsx'
 import Home  from './pages/Home.jsx'
+// import NotFound  from './pages/404Page.jsx'
 
 
 var Routes = (
