@@ -4,13 +4,12 @@ import Router from 'react-router'
 var RouteHandler = Router.RouteHandler
 import Header from './Header.jsx'
 
-import basscss from 'basscss/css/basscss.css'
 import css from '../css/base.css'
 
 
 export default class Root extends React.Component {
   render() {
-  
+
       var initialProps = {
         __html: safeStringify(this.props)
       }
@@ -19,8 +18,9 @@ export default class Root extends React.Component {
         <html>
           <head>
             <title>{this.props.title}</title>
-            <style dangerouslySetInnerHTML={{ __html: basscss }} />
             <style dangerouslySetInnerHTML={{ __html: css }} />
+              <link rel="stylesheet" href="./style.css"/>
+
           </head>
           <body className='p2'>
             <Header {...this.props} />

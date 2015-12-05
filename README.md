@@ -43,12 +43,13 @@ The demo uses the a project source structure like this :
 ```
 /project
   /build
-  /src
-    /pages
+  /components
+      Header.jsx
+      Root.jx
+  /pages
       RootPage.js
-      HomePage.js
-      AboutPage.js
-      ProjectsPage.js
+      Home.jsx
+      About.jsx
       404Page.js
     entry.js
   webpack.config.js
